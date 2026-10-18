@@ -19,7 +19,3 @@ def preenche_frota (frota, nome_navio, linha, coluna, orientacao, tamanho):
     frota[nome_navio] = define_posicoes(linha, coluna, orientacao, tamanho) #chave 'nome navio' receb valores da ultima funcao(contem as posicoes)
 
     return frota
-
-print(preenche_frota (frota, nome_navio, linha, coluna, orientacao, tamanho))
-
-
