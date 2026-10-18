@@ -12,16 +12,7 @@ def define_posicoes(linha, coluna, orientacao, tamanho):
         i = i + 1
 
     return posicao
-frota = {
-  "navio-tanque":[
-    [[6,1],[6,2],[6,3]]
-  ]
-}
-nome_navio = 'navio-tanque'
-linha = 4
-coluna = 7
-orientacao = 'vertical'
-tamanho = 3
+
 
 def preenche_frota (frota, nome_navio, linha, coluna, orientacao, tamanho):
 
