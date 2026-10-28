@@ -1,5 +1,4 @@
-from funcoes import (posicao_valida, preenche_frota, posiciona_frota, faz_jogada,
-                      define_posicoes, afundados)
+from funcoes import (posicao_valida, preenche_frota)
 
 
 frota = {}
@@ -19,7 +18,7 @@ for nome, tamanho, quantidade in embarcacoes:
         while not posicionado:
             print(
                 f"Insira as informações referentes ao navio {nome} "
-                f"que possui tamanho {tamanho}."
+                f"que possui tamanho {tamanho}s"
             )
 
             linha = int(input("Linha: "))
