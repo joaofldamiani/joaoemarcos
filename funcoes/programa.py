@@ -18,7 +18,7 @@ for nome, tamanho, quantidade in embarcacoes:
         while not posicionado:
             print(
                 f"Insira as informações referentes ao navio {nome} "
-                f"que possui tamanho {tamanho}s"
+                f"que possui tamanho {tamanho}"
             )
 
             linha = int(input("Linha: "))
